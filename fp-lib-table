@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Housings_QFP)(type KiCad)(uri "$(KISYSMOD)Housings_QFP.pretty")(options "")(descr ""))
+  (lib (name Connectors_Molex)(type KiCad)(uri "$(KISYSMOD)Connectors_Molex.pretty")(options "")(descr ""))
+  (lib (name Connect)(type KiCad)(uri "$(KISYSMOD)Connect.pretty")(options "")(descr ""))
+  (lib (name TO_SOT_Packages_SMD)(type KiCad)(uri "$(KISYSMOD)TO_SOT_Packages_SMD.pretty")(options "")(descr ""))
+)
