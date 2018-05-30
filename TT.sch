@@ -12,11 +12,11 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title "APU - Audio Processing Unit"
-Date "2017-08-06"
+Title "TT remake"
+Date "2018-08-06"
 Rev "v.1.0"
-Comp "Seismic Industries"
-Comment1 "Cortex M4, with SDcard and 2x2 24bit/96kHz Codec "
+Comp ""
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -4592,10 +4592,6 @@ Text GLabel 3025 12025 2    39   Input ~ 0
 CV1
 Text GLabel 5575 12025 2    39   Input ~ 0
 CV2
-Text Notes 14550 4675 0    60   ~ 0
-changelog:\nMK1:	initial - diverses beim display falsch und vergessen.\nMK2: 	+12V nicht zur drossel geroutet \n		 Ein GND im JTAG stecker nicht geroutet\n		 GND plane nicht aktualisiert bevor and factory gesandt. -> reset wird auf gnd gezogen - muss gecuttet werden.. evtl. noch mehr - z.b. vom display oder SDcard\n
-Text Notes 14475 5700 0    60   ~ 0
-für MK4: boot und res switch added - probleme bei buttoninits machen board unbrauchbar da jtag irgendwie abgeschaltet wird. mit boot0 kann der jtag wieder aktiviert werden.\n-- fertig gezeichnet 26.10.2017\n\nmk4 build: 100k pullup einbauen für EN pin am AP65211 sonst geht der regler kaputt beim einschalten.\n\nmk5: 		separater linear regualtor für 3V3A \n					power out pads für ext brds\n					rewiring SDcard für korrekte SPI belegung\nMK5.1:	neuer switcher -> AP65211 ausverkauft -> mp1469\n
 Text GLabel 9325 5050 0    39   Input ~ 0
 BTN1
 Text GLabel 8250 12025 2    39   Input ~ 0
